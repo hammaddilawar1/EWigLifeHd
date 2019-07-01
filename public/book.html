@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="images/book.png">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="./css/book.css">
+
+  <title>Find Your Book</title>
+</head>
+<body>
+  <a href="index.html" class="home"><img src="https://png.pngtree.com/element_our/sm/20180620/sm_5b29c1a236a02.png" class="img-responsive" width="30%"></a>
+
+  <div class="container book">
+    <h1>BOOK FINDER</h1>
+    <div class="row main-book">
+      <div class="col-md-12 col-sm-3 books">
+        <input id = "search" placeholder="Title or Author"/><br><br>
+        <!-- <button class="btn btn-default" id="button">SEARCH</button> -->
+        <svg viewBox="45 60 400 320" xmlns="http://www.w3.org/2000/svg" id="button">
+          <path fill="#fff" d="M 90 210 C 90 180 90 150 90 150 C 150 150 180 150 180 150 C 180 150 300 150 300 150 C 300 150 330 150 390 150 C 390 150 390 180 390 210 C 390 240 390 270 390 270 C 330 270 300 270 300 270 C 300 270 180 270 180 270 C 180 270 150 270 90 270 C 90 270 90 240 90 210" mask="url(#knockout-text)" >
+          </path>
+          <mask id="knockout-text">
+            <rect width="100%" height="100%" fill="#fff" x="0" y="0" />
+            <text x="145" y="227" fill="#000">FIND BOOK</text>
+          </mask>
+        </svg>
+
+        <!--- M 90 210 C 90 180 90 150 150 150 C 150 150 180 150 180 150 C 180 150 300 150 300 150 C 300 150 330 150 330 150 C 390 150 390 180 390 210 C 390 240 390 270 330 270 C 330 270 300 270 300 270 C 300 270 180 270 180 270 C 180 270 150 270 150 270 C 90 270 90 240 90 210 --->
+      </div>
+
+      <div class="col-md-12 col-sm-6">
+        <div id="results"></div>
+      </div>
+    </div>
+  </div>
+
+  <a href="signup.html" class="btn btn-primary" style="margin-left: 45%;">Create Your Account</a>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="./js/book.js"></script>
+</body>
+</html>    
